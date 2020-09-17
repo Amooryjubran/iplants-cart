@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+.about-us{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 150px;
+
+}
+
+.about-us h1{
+    margin-top: 60px;
+
+}
+.about-us p{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 35px;
+    
+}
+
+.random-person{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.hr-about{
+    width: 300px;
+}

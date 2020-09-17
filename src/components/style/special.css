@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+#special-image{
+    margin-left: -320px;
+}
+#special-text {
+    margin-left: 100px;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+#text-special{
+    font-weight: 350;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+.hr-lol{
+    margin-top: 50px;
+    width: 400px;
+}
+
+.head-h4{
+    margin-left: -250px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 70px;
+    
+}
+
+.head-h4 span{
+    background: rgba(0, 0, 0, 0.75);
+}
+.hr-for-first{
+    margin-top: 20px;
+    margin-left: -250px;
+    width: 290px;
+    margin-bottom: 30px;
+    
+}
+
+
+.button{
+    color: white; 
+}
+.button :hover {
+    color: white;
+}
+.Sample-buy{
+    
+    
+ margin-top: 80px;
+  background: #3e3e3f;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 1.25rem 8.5rem;
+  font-size: 1rem;
+    margin-left: 110px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  letter-spacing: 0.0625rem;
+}
+.container-special{
+    margin-bottom: 100px;
+    
+}
+
+@media only screen and  (max-width:600px){
+    .special-images{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .head-h4{
+        margin-left: 100px;
+    }
+    .span4{
+        margin-left: 300px;
+    }
+    .hr-for-first{
+        margin-left: 50px;
+    }
+    #special-text{
+        margin-left: 10px;
+    }
+    .Sample-buy{
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+   
+  }
+
+  @media only screen and  (max-width:1440px) and (min-width: 600px){
+    .special-images{
+        width: 600px;
+        height: 400px;
+        
+    }
+    .head-h4{
+        margin-left: -80px;
+    }
+    .span4{
+        margin-left: 250px;
+    }
+    .hr-for-first{
+        margin-left: -50px;
+    }
+    #special-text{
+        margin-left: 130px;
+    }
+    .Sample-buy{
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+   
+  }

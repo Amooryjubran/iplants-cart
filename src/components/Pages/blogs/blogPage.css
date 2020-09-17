@@ -1,0 +1,111 @@
+.inside-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+#poular-blogs {
+    padding: 0 50px;
+    margin-top: 30px;
+}
+.blog{
+    padding: 30px 0;
+    margin-top: 70px;
+    background: url('https://images.pexels.com/photos/1166644/pexels-photo-1166644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center;
+    background-size: cover;
+    background-position-y: 80%;
+    
+   
+}
+.item-title {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1px;
+    
+    
+    
+}
+
+.single-blog{
+    box-shadow: 0px 2px 4px 1px lightgray;
+    width: 100%;
+    margin:40px 0;
+    background: white;
+    opacity: .8;
+}
+
+.single-blog img{
+    width: 100%;
+    display: block;
+    height: 350px; 
+    
+}
+
+.posts p{
+    color:grey;
+    
+}
+
+.posts,
+.comments{
+    margin:0 40px;
+    padding:30px 0;
+    
+}
+
+.comments{
+    border-top: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    
+}
+
+.comments li a{
+    color:grey;
+    margin-left: 10px;
+    
+}
+
+.comments li:nth-of-type(2){
+    padding-left: 10px;
+}
+
+.comments li:nth-of-type(3){
+    flex:1 1 65%;
+    text-align: right;
+}
+
+@media screen and (min-width:664px){
+ .blog-center{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .single-blog{
+     flex:0 0 calc(50% - 20px);
+     margin:20px 0;
+ }
+
+
+}
+
+
+@media screen and (min-width:968px){
+   
+   
+    .single-blog{
+        flex:0 0 calc(33% - 20px);
+        margin:20px 0;
+    }
+
+    .single-blog img{
+        height: 300px;
+    }
+   
+   
+   }

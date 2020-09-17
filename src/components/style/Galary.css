@@ -1,0 +1,93 @@
+#img-fluid-galary{
+    height: 275px;
+    width: 275px;
+}
+.row img {
+    
+}
+
+.galary2-buttons{
+    text-align: center;
+}
+
+
+.galary2-buttons-p{
+    color: #3e3e3f;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 2px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.galary2-buttons-p2{
+    color: #3e3e3f;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 2px;
+    margin-bottom: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.galary2-hr{
+    width: 200px;
+    margin-top: 30px;
+}
+.galary2-ol{
+    width: 160px;
+    margin-top: 15px; 
+}
+.galary2-hr2{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.galary2-hr3{
+    width: 800px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.buy-it{
+    
+    
+  position: center;
+  background: #3e3e3f;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  padding: 1.25rem 9.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 0.0625rem;
+}
+
+
+.Photos-name{
+    font-family: 'Quicksand', sans-serif;
+    color: #f3f3f3;
+
+}
+.photo-title{
+   
+    line-height: 30px;
+  font-size: 36px;
+  word-wrap: break-word;
+  color: #3e3e3f;
+  text-align: center;
+}
+.photo-title span{
+     background: rgba(0, 0, 0, 0.75); 
+     color: white;
+}
+.photos-hr{
+    width: 300px;
+    margin-top: 30px;
+    float: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#title-galary{
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.container123 {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+    color: #444;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    /* margin-left: 200px; */
+  }
+  
+  .section .container123 {
+    padding: 30px 0 50px 0;
+  }
+  
+  .section.bg {
+    margin-top: 0;
+    background-image: url('https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: cover;
+    background-position-x: 0%;
+    background-position-y: 61%;
+  }
+
+
+  .container123 h1{
+      text-align: center;
+      margin-left: -120px;
+  }
+
+  .dona{
+      height: 50px;
+      width: 50px;
+    margin-top: 30px;
+    margin-left: -10px;
+    border-radius: 50%;
+}
+
+.dona2{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: -5px;
+  border-radius: 50%;
+}
+.dona3{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: -5px;
+  border-radius: 50%;
+}
+@media only screen and  (max-width:600px) {
+    .span-review{
+        margin-left: -700px;
+    }
+    .stars{
+        margin-left: ;
+    }
+    #reviews-all{
+        width: 400px;
+    }
+    .side{
+        width: 360px;
+    }
+}
+
+
+
+
+@media only screen and  (min-width:1440px){
+    .col{
+      transform: translate(5rem);
+    }
+    .span-review{
+        margin-left: 5rem;
+    }
+   
+  }
+  @media only screen and  (max-width:1000px){
+    .col{
+      transform: translate(-2rem);
+    }
+    #doooona {
+        text-align: center;
+    }
+    
+   
+  }
+.col{
+    opacity: .8;
+    /* transform: translate(12rem); */
+    
+}
+
+
+.feature .side{
+    margin-left: 5px;
+}
+
+.icon .side {
+    margin-right: 100px;
+}
+.col p{
+    margin-right: 0px;
+}
+
+.container123 .span-review{
+    background: rgba(0, 0, 0, 0.75);
+    padding: 0 30px;
+    
+}
+.span-review{
+    text-align: center;
+}
+.container123 h1{
+    color: #fff;
+    margin-bottom: 30px;
+    
+}
+
+
+.checked {
+    color: goldenrod;
+}
+.stars span{
+    margin-left: 3px;
+   
+}
+.stars{
+    margin-left: 150px;
+    margin-top: -10px;
+}
+
+
+
+.column-xs-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  } 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+  }
+  .grid > [class*="column-"] {
+    margin: 0;
+    max-width: 100%;
+  }
+  .column-xs-12 {
+    grid-column-start: span 12;
+    grid-column-end: span 12;
+  }
+  

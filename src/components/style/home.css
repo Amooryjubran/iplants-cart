@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+  
+  font-size: 18px;
+}
+
+#container-home{
+   padding-top: 100px;
+}
+.btn {
+    padding: 10px 60px;
+    height: 45px;
+}
+
+.btn-custom{
+background-color: #fff;
+    color: #111;
+    border: 1px solid #111;
+    border-radius: 0px !important;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.btn-custom:hover{
+  color: #fff;
+  background-color: #a9ebda;
+  border:0;
+}
+#logo{
+     border-radius: 50%;
+  border: 1px solid #111;
+ margin:30px;
+}
+
+
+#home{
+
+    background-image: url('https://images.pexels.com/photos/1903973/pexels-photo-1903973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+   background-size: cover;
+    background-position-x: 40%;
+    background-position-y: -10px; 
+    /* margin-top: ; */
+    height: 100%;
+    opacity: .8;
+    padding-bottom: 15rem;
+    font-family: 'Quicksand', sans-serif;
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;  
+  }
+
+  #first-page{
+      margin-top: 20rem;
+  }
+
+#text-home {
+    margin-top: 100px;
+}
+
+.home-header {
+    background: rgba(0, 0, 0, 0.75);
+    color: whitesmoke;
+    width: 200px;
+   margin-left: 150px;
+   font-weight: 100px;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.home-header-second {
+  text-align: center;
+  color: white;
+  font-weight: 100px;
+  width: 500px;
+  margin-right: 250px;
+  margin-top: 10px;
+  /* font-family: cursive; */
+  font-family: 'Quicksand', sans-serif;
+  /* transform: translate(32rem, 15rem); */
+  background: rgba(0, 0, 0, 0.75);
+  line-height: 30px;
+  font-size: 20px;
+  word-wrap: break-word
+    
+}
+
+#img-fluid-home{
+  transform: translate(25%);
+}
+
+
+@media only screen and  (max-width:600px){
+    .home-header{
+        margin-left: 80px;
+    }
+   #img-fluid-home{
+     margin-left: -90px;
+     margin-bottom: -20px;
+   }
+   .home-header-second{
+     margin-left: -10 px;
+     width: 360px;
+   }
+  }
