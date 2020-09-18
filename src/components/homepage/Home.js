@@ -1,14 +1,25 @@
 import React from "react";
 import Offer from "../assests/FotoJet.jpg";
-
 import "../style/home.css";
-
 import About from "./About";
 import Galary from "./Galary";
 import Services from "./Services";
 import Special from "./Special";
 import Review from "./Reviews";
 import Loading from "./Loading";
+import Collections from "./Collections";
+import Collection_Second from "./Collection_Second";
+
+import One from "../assests/1.jpg";
+import Two from "../assests/2.jpg";
+import Four from "../assests/4.jpg";
+
+import Three from "../assests/3.jpg";
+import Five from "../assests/5.png";
+import Six from "../assests/6.jpg";
+import Sevin from "../assests/7.jpg";
+
+// import { Collections } from "@material-ui/icons";
 
 export default function Home() {
   return (
@@ -53,6 +64,22 @@ export default function Home() {
         image={Offer}
       />
       <Loading />
+      <Collections
+        id="0002"
+        title="UASTRUIN"
+        image={One}
+        image1={Two}
+        image2={Four}
+        price={39}
+      />
+      <Collection_Second
+        title1="THRESTARY"
+        image3={Three}
+        image7={Sevin}
+        image5={Five}
+        image6={Six}
+        price1={59}
+      />
       <Galary />
       <Review />
     </>
