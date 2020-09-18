@@ -7,8 +7,9 @@ import Services from "./Services";
 import Special from "./Special";
 import Review from "./Reviews";
 import Loading from "./Loading";
-import Collections from "./Collections";
-import Collection_Second from "./Collection_Second";
+import Collections from "./Collections/Collections";
+import Collection_Second from "./Collections/Collection_Second";
+import Collection__Home from "./Collections/Collection__Home";
 
 import One from "../assests/1.jpg";
 import Two from "../assests/2.jpg";
@@ -57,30 +58,15 @@ export default function Home() {
         id="0001"
         title="EAKNANIUM"
         price={29}
-        rating="This is one of the best combos we have ever had, you can get a
+        details="This is one of the best combos we have ever had, you can get a
           collection of different plants from our top selling plants. It
           comes with the top 3 selling plants along with a free plant :). it
           was chosen very carefully. It's with a free shipping.."
         image={Offer}
       />
       <Loading />
-      <Collections
-        id="0002"
-        title="UASTRUIN"
-        image={One}
-        image1={Two}
-        image2={Four}
-        price={39}
-      />
-      <Collection_Second
-        title1="THRESTARY"
-        image3={Three}
-        image7={Sevin}
-        image5={Five}
-        image6={Six}
-        price1={59}
-      />
-      <Galary />
+      <Collection__Home />
+
       <Review />
     </>
   );

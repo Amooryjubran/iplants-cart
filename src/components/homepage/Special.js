@@ -3,7 +3,7 @@ import "./Product.css";
 import { useStateValue } from "../StateProvider";
 import { Link } from "react-router-dom";
 
-export default function Special({ id, title, image, price, rating }) {
+export default function Special({ id, title, image, price, details }) {
   const [{ basket }, dispatch] = useStateValue();
   const addToBasket = () => {
     // add item to basket
@@ -14,7 +14,7 @@ export default function Special({ id, title, image, price, rating }) {
         title: title,
         image: image,
         price: price,
-        rating: rating,
+        details: details,
       },
     });
   };
@@ -34,7 +34,7 @@ export default function Special({ id, title, image, price, rating }) {
                 {title} ${price}
               </h1>
               <div className="underline"></div>
-              <p className="special__text">{rating}</p>
+              <p className="special__text">{details}</p>
               <hr className="hr__bottom" />
               <button className="special__bottom" onClick={addToBasket}>
                 Buy

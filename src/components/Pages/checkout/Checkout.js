@@ -9,11 +9,6 @@ function Checkout() {
   return (
     <div className="checkout">
       <div className="checkout__left">
-        <img
-          className="checkout__ad"
-          src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
-          alt=""
-        />
         {basket?.length === 0 ? (
           <div>
             <h2>You don't currently have any items</h2>
@@ -24,13 +19,13 @@ function Checkout() {
           </div>
         ) : (
           <div>
-            <h2 className="checkout__title">your shopping basket </h2>
+            <h2 className="checkout__title">Your shopping basket </h2>
             {/* list out all of items */}
             {basket?.map((item) => (
               <CheckoutProduct
                 id={item.id}
                 title={item.title}
-                rating={item.rating}
+                details={item.details}
                 price={item.price}
                 image={item.image}
               />

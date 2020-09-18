@@ -20,7 +20,11 @@
   /* border-bottom: 1px solid rgb(71, 69, 69); */
   text-align: left;
   font-size: 1.4em;
-  margin: 20px 0 40px 100px;
+  margin: 20px 0 40px 150px;
+}
+.underline {
+  width: 40px;
+  border: 1px solid;
 }
 .collection__container {
   padding: 20px;
@@ -38,11 +42,18 @@
 .collection__desc h1 {
   font-size: 1.4em;
 }
+.collecion__seconds {
+  font-family: "Quicksand", sans-serif;
+}
 .collection__images__hr {
   width: 400px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.collection__bottom {
+  width: 800px;
+  margin-top: 60px;
 }
 .collection__button {
   border: none;
@@ -56,4 +67,13 @@
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 0.0625rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .collection_images {
+    flex-direction: column;
+  }
+  img {
+    margin: 20px;
+  }
 }
